@@ -5,8 +5,8 @@ pipeline {
         stage('build') {
             steps {
                   echo "hi pipeline"
-                  Global_vars "info message"
-                  Global_vars "warning message"
+                  globalVars "info message"
+                  globalVars "warning message"
                   
             }     
             
