@@ -1,5 +1,5 @@
 @Library("jenkins-share")_
-import org.share.Bar
+import org.share.bar
 pipeline {
     agent any
     stages {
