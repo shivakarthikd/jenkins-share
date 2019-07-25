@@ -9,7 +9,7 @@ pipeline {
                   script {
                          globalVars.info "info message"
                          globalVars.warning "warning message"
-                         echo local()
+                         echo Local("s")
                 }
             }     
             
