@@ -1,5 +1,5 @@
 package org.share
 
-def Local() {
-    echo "local"
+def Local(String s) {
+    return "this is share"
 }
