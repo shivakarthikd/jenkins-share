@@ -1,5 +1,5 @@
 @Library("jenkins-share")_
-@Library("jenkins-share") import org.share.bar.Local
+import org.share.bar.Local
 pipeline {
     agent any
     stages {
@@ -9,7 +9,8 @@ pipeline {
                   script {
                          globalVars.info "info message"
                          globalVars.warning "warning message"
-                         Local()
+                         def h= new Local()
+                         echo h
                 }
             }     
             
