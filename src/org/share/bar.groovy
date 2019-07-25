@@ -1,6 +1,6 @@
 package org.share
 class bar {
-    def Local() {
-         println("this is share")
+    String Local() {
+         return "this is share"
     }    
 }
