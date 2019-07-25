@@ -1,17 +1,15 @@
-@Library("jenkins-shared")
-
-
+@Library("jenkins-share")_
 pipeline {
     agent any
     stages {
         stage('build') {
             steps {
                   echo "hi pipeline"
-                  foo.info 'info message'
-                  foo.warning 'warning message'
-
-
-            }
+                  Global_vars "info message"
+                  Global_vars "warning message"
+                  
+            }     
+            
         }
     }
 }
