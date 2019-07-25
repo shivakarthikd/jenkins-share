@@ -1,8 +1,8 @@
 
-def info(message='default') {
+def info(String message='default') {
     echo "INFO: ${message}"
 }
 
-def warning(message) {
+def warning(string message='default') {
     echo "WARNING: ${message}"
 }
