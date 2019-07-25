@@ -1,4 +1,5 @@
 @Library("jenkins-share")_
+import org.share.bar
 pipeline {
     agent any
     stages {
@@ -8,6 +9,7 @@ pipeline {
                   script {
                          globalVars.info "info message"
                          globalVars.warning "warning message"
+                         bar.local()
                 }
             }     
             
