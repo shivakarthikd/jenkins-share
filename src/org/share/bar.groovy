@@ -1,5 +1,6 @@
 package org.share
-
-def Local() {
-    echo "this is share"
+class bar {
+    def Local() {
+         echo "this is share"
+    }    
 }
