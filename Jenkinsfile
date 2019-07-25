@@ -8,8 +8,8 @@ pipeline {
                   Global_vars 'info message'
                   Global_vars 'warning message'
                   
-
-            }
+            }     
+            
         }
     }
 }
