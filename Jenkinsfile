@@ -1,4 +1,4 @@
-@Library("jenkins-share")_
+@Library("jenkins-share")
 import org.share.bar
 pipeline {
     agent any
@@ -9,7 +9,7 @@ pipeline {
                   script {
                          globalVars.info "info message"
                          globalVars.warning "warning message"
-                         echo bar.Local("s")
+                         echo bar.Local()
                 }
             }     
             
