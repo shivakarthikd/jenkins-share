@@ -3,6 +3,6 @@ def info(String message='default') {
     echo "INFO: ${message}"
 }
 
-def warning(string message='default') {
+def warning(String message='default') {
     echo "WARNING: ${message}"
 }
