@@ -9,8 +9,8 @@ pipeline {
                   script {
                          globalVars.info "info message"
                          globalVars.warning "warning message"
-                         def h= new Local()
-                         echo h
+                         def h= new bar()
+                         echo h.Local()
                 }
             }     
             
