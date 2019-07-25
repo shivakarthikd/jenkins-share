@@ -1,5 +1,5 @@
-@Library("jenkins-share")
-@Library("jenkins-share").org.share.bar.Local()
+@Library("jenkins-share")_
+@Library("jenkins-share") import org.share.bar.Local()
 pipeline {
     agent any
     stages {
