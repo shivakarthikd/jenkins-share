@@ -2,7 +2,7 @@
 import org.share.bar
 
 def call(message){
-    bar b=new bar()
+    barIN b=new barIN()
     echo b.Local()
 }
 
