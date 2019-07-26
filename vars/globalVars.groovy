@@ -1,19 +1,14 @@
 
 import org.share.bar
 
-def call(){
-    test()
-}
 
+bar b=new bar()
 
-def test(){
-    bar b=new bar()
-    print b.Local()
-}
 
 def info(message='default') {
     if(message=='TRUE') {
         echo "INFO: ${message}"
+        echo b.Local()
     }
 }
 
