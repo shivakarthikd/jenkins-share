@@ -1,12 +1,15 @@
 import org.share.bar
-def call(message='default') {
-    if(message=='TRUE') {
+def call(Map args){
+    
+}
+def info(message) {
+    if(args.v1=='TRUE') {
         echo "INFO: ${message}"
     }
 }
 
 def warn(message) {
-    if(message=="FALSE") {
+    if(args.v2=="FALSE") {
         echo "WARNING: ${message}"
     }
 }
