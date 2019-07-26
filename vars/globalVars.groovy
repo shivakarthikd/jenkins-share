@@ -1,12 +1,12 @@
 
 import org.share.bar
-def l= library('jenkins-share@jenkins').org.share.Bar;
+
 
 
 
 
 def info(message='default') {
-    
+        def l= library('jenkins-share@jenkins').org.share.Bar;
         echo "INFO: ${message}"
        
         echo l.Local()
