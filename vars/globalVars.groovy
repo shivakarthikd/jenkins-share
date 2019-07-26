@@ -2,8 +2,8 @@
 import org.share.bar
 
 def call(message){
-    bar b=new org.share.bar()
-    echo b.Local()
+  
+    echo bar.Local()
 }
 
 def info(message='default') {
