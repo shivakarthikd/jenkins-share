@@ -10,6 +10,7 @@ def call(Map args) {
                     script {
                         globalVars.info args.v1
                         globalVars.warn args.v2
+                        globalVars.importclass args.v3
 
                     }
                 }
