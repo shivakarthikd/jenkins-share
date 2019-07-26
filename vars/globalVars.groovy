@@ -2,13 +2,13 @@
 import org.share.bar
 
 
-bar b=new bar()
 
 
-def info(message='default',b) {
+
+def info(message='default') {
     
         echo "INFO: ${message}"
-        echo b.Local()
+        echo org.share.bar.Local()
        
     
 }
