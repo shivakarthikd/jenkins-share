@@ -15,7 +15,7 @@ def info(message='default') {
 }
 
 def warn(message='default') {
-    bar b=new bar()
+    def b= bar.newInstance()
     if(message=="FALSE") {
         echo "WARNING: ${message}"
         echo b.nonstatic()
