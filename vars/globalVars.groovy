@@ -2,7 +2,7 @@ library 'jenkins-share@jenkins'
 import src.org.share.bar.*
 
 def call(message){
-    echo bar.Local()
+    echo Local()
 }
 
 def info(message='default') {
