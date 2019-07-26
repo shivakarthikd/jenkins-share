@@ -13,5 +13,5 @@ def warn(message='default') {
 }
 
 def importclass(message){
-    echo bar.Local(message)
+    echo bar.Local("${message}")
 }
