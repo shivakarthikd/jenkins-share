@@ -1,14 +1,12 @@
 import org.share.bar
-def call(Map args){
-    echo "In MAP"
-}
-def info(message=args.v1) {
+
+def info(message='default') {
     if(message=='TRUE') {
         echo "INFO: ${message}"
     }
 }
 
-def warn(message=args.v2) {
+def warn(message='default') {
     if(message=="FALSE") {
         echo "WARNING: ${message}"
     }
