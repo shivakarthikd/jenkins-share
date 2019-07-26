@@ -12,6 +12,6 @@ def warn(message='default') {
     }
 }
 
-def importclass(String message){
-    echo bar.Local(message)
+def importclass(){
+    echo bar.Local()
 }
