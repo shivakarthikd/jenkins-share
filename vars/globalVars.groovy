@@ -1,6 +1,6 @@
 import org.share.bar
 
-def call(){
+def call(message){
     echo bar.Local()
 }
 
