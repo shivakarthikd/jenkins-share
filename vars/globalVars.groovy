@@ -3,7 +3,7 @@ import org.share.bar
 import java.lang.String
 final script
 def call(message){
-    script.bar b=new bar()
+    bar b=new bar()
     echo b.Local()
 }
 
