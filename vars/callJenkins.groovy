@@ -8,7 +8,7 @@ def call() {
                 steps {
                     echo "hi pipeline"
                     script {
-                        globalVars "info message"
+                        globalVars.info "info message"
                         globalVars.warning "warning message"
 
                     }
