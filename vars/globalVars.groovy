@@ -13,5 +13,5 @@ def warn(message='default') {
 }
 
 def importclass(String s){
-    echo bar.Local(s)
+    echo bar.Local()
 }
