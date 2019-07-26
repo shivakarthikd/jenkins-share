@@ -1,7 +1,7 @@
 @Library("jenkins-share@jenkins")_
 
 pipeline {
-gloalVars: "TRUE",
+gloalVars: 'TRUE',
 globalVars.warn: "FALSE",
 globalVars.importclass:,
 helloClass: "TRUE",
