@@ -1,4 +1,4 @@
-@Library('jenkins-share@jenkins').org.share.bar.*
+library 'jenkins-share@jenkins' import org.share.bar.*
 
 def call(message){
     echo bar.Local()
