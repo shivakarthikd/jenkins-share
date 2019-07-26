@@ -1,6 +1,6 @@
 
 import org.share.bar
-def l= library('jenkins-share@jenkins').org.share.bar;
+def l= library('jenkins-share@jenkins').org.share.Bar;
 
 
 
