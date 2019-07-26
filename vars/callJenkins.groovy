@@ -9,7 +9,7 @@ def call(Map args) {
                     echo "hi pipeline"
                     script {
                         globalVars.info args.v1
-                        globalVars.warning args.v2
+                        globalVars.warn args.v2
 
                     }
                 }
