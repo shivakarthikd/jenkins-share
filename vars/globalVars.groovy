@@ -2,7 +2,7 @@
 import org.share.bar
 
 def call(message){
-    bar b=new bar()
+    Bar b=new Bar()
     print b.Local()
 }
 
