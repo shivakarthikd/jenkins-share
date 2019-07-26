@@ -6,7 +6,7 @@ import org.share.bar
 
 
 def info(message='default') {
-        bar b=new org.share.bar()
+        bar b=new org.share.bar
         echo "INFO: ${message}"
        
         echo b.Local()
