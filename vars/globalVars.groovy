@@ -1,5 +1,9 @@
 import org.share.bar
 
+def call(){
+    echo bar.Local()
+}
+
 def info(message='default') {
     if(message=='TRUE') {
         echo "INFO: ${message}"
@@ -12,6 +16,3 @@ def warn(message='default') {
     }
 }
 
-def importclass(){
-    echo bar.Local()
-}
