@@ -1,5 +1,5 @@
 
-import src.org.share.bar.*
+import src.org.share
 
 def call(message){
     bar b=new bar()
