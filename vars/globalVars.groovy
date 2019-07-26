@@ -1,4 +1,4 @@
-import org.share.bar
+import static org.share.bar
 
 def call(message){
     echo bar.Local()
