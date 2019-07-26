@@ -1,6 +1,6 @@
 package org.share
 class bar {
-    String Local(String s) {
-         return s
+    String Local() {
+         return "bar"
     }    
 }
