@@ -1,6 +1,6 @@
 @Library("jenkins-share")
 
-def call() {
+def call(Map args) {
     pipeline {
         agent any
         stages {
@@ -8,8 +8,8 @@ def call() {
                 steps {
                     echo "hi pipeline"
                     script {
-                        globalVars.info "info message"
-                        globalVars.warning "warning message"
+                        globalVars.info args.v1
+                        globalVars.warning args.v2
 
                     }
                 }
