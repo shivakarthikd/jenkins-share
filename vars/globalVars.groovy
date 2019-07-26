@@ -1,5 +1,5 @@
 
-import org.share.bar
+import static org.share.BAR
 
 def call(message){
   
