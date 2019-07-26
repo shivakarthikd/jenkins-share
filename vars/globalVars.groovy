@@ -3,13 +3,13 @@ def call(Map args){
     
 }
 def info(message=args.v1) {
-    if(args.v1=='TRUE') {
+    if(message=='TRUE') {
         echo "INFO: ${message}"
     }
 }
 
 def warn(message=args.v2) {
-    if(args.v2=="FALSE") {
+    if(message=="FALSE") {
         echo "WARNING: ${message}"
     }
 }
