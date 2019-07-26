@@ -1,5 +1,5 @@
 package org.share
-class bar{
+class bar {
    String Local() {
        return "bar"
    }   
