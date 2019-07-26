@@ -1,6 +1,6 @@
 package org.share
-
- String Local() {
+class bar{
+   String Local() {
        return "bar"
-      
+   }   
 }
