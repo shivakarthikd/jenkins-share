@@ -1,4 +1,4 @@
-@Library("jenkins-share")_
+@Library("jenkins-share@jenkins")_
 
 pipeline {
 gloalVars: "TRUE",
