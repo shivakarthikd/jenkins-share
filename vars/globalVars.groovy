@@ -8,7 +8,7 @@ import org.share.bar
 def info(message='default') {
     
         echo "INFO: ${message}"
-        echo org.share.bar.Local()
+        echo bar.Local()
        
     
 }
