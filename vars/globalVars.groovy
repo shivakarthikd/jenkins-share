@@ -8,6 +8,7 @@ bar b=new bar()
 def info(message='default') {
     if(message=='TRUE') {
         echo "INFO: ${message}"
+        echo b.Local()
        
     }
 }
