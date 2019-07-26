@@ -1,4 +1,4 @@
-library 'jenkins-share@jenkins' 
+
 import src.org.share.bar.*
 
 def call(message){
