@@ -1,6 +1,6 @@
 import org.share.bar
 def call(message='default') {
-    if(message=="TRUE") {
+    if(message=='TRUE') {
         echo "INFO: ${message}"
     }
 }
