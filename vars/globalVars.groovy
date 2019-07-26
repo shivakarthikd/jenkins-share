@@ -8,7 +8,7 @@ def l= library('jenkins-share@jenkins').org.share.Bar;
 def info(message='default') {
     
         echo "INFO: ${message}"
-        bar b=new bar()
+       
         echo l.Local()
        
     
