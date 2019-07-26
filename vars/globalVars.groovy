@@ -1,8 +1,13 @@
 
 import org.share.bar
 
-def call(message){
-    bar b=new Local()
+def call(){
+    test()
+}
+
+
+def test(){
+    bar b=new bar()
     print b.Local()
 }
 
