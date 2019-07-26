@@ -1,6 +1,6 @@
 @Library("jenkins-share@jenkins")_
 
-globalVars(
+callJenkins(
     v1: 'TRUE',  
     v2: "FALSE", 
       )
