@@ -1,4 +1,4 @@
-@Library("jenkins-share")
+@Library("jenkins-share@jenkins")
 
 def call(Map args) {
     pipeline {
