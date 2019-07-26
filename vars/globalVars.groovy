@@ -1,10 +1,10 @@
 
 import org.share.bar
 import java.lang.String
-
+final script
 def call(message){
-  
-    echo bar.Local()
+    script.bar b=new script.bar
+    echo b.Local()
 }
 
 def info(message='default') {
