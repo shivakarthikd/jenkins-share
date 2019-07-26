@@ -1,4 +1,4 @@
 package org.share
-   String Local() {
+   static String Local() {
        return "bar"
    }   
