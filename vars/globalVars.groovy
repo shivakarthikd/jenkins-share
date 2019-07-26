@@ -3,7 +3,7 @@ import org.share.bar
 
 def call(message){
   
-    echo bar.Local()
+    echo bar.Local
 }
 
 def info(message='default') {
