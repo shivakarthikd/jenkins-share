@@ -1,6 +1,6 @@
 import org.share.bar
 def call(Map args){
-    
+    echo "In MAP"
 }
 def info(message=args.v1) {
     if(message=='TRUE') {
